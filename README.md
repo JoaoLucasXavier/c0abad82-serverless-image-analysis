@@ -31,13 +31,13 @@ npm run deploy
 ## Run Local
 
 ```
-npm run invoke
+npm run invoke-local
 ```
 
 ## Run AWS
 
 ```
-npm run invoke-local
+npm run invoke
 ```
 
 ## Remove App
