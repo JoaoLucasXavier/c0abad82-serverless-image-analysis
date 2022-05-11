@@ -1,0 +1,31 @@
+{
+  "name": "serverless-image-analysis",
+  "version": "1.0.0",
+  "description": "Serverless image analysis using aws rekognition",
+  "main": "handler.js",
+  "scripts": {
+    "deploy": "sls deploy",
+    "remove": "sls remove",
+    "invoke": "sls invoke -f image-analyzis --path request.json --l",
+    "invoke-local": "sls invoke local -f image-analyzis --path request.json --l"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoLucasXavier/c0abad82-serverless-image-analysis.git"
+  },
+  "keywords": [
+    "serverless",
+    "node",
+    "aws",
+    "javascript",
+    "image",
+    "analysis",
+    "rekognition"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1101.0",
+    "axios": "^0.26.1"
+  }
+}
